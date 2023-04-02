@@ -8,14 +8,14 @@ const Cart = (props) => {
     let totalPrice=0;
     let shipping=0;
     for (const product of cart) {
-        console.log(product)
+        // console.log(product)
         let price=product.price;
         totalPrice=totalPrice+price;
 
         shipping=product.shipping+shipping;
-
     }
-    let tax=totalPrice * 8/100;
+
+    let tax=totalPrice * 5/100;
     let grandTotal=totalPrice + shipping + tax;
 
     return (

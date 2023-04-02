@@ -9,7 +9,9 @@ const Product = (props) => {
     const handleAddToCart=props.handleAddToCart;
     return (
             <div className='product'>
-                <img src={img} alt="" />
+                <div className='image'>
+                    <img src={img} alt="" />
+                </div>
                 <div className='product-info'>
                     <h4>{name}</h4>
                     <p>Price: ${price}</p>
