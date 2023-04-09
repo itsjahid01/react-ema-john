@@ -1,7 +1,7 @@
 .product{
     position: relative;
     width: 300px;
-    height: 510px;
+    height: 490px;
     border: 1px solid #95A0A7;
     border-radius: 5px;
 }
@@ -16,11 +16,11 @@
     border-radius: 5px;
 }
 .product-info{
-    margin-left: 10px;
+    margin-left: 8px;
     margin-top: 0;
 }
-.product-info p{
-    margin-bottom: 0;
+.product-info p,h4{
+    margin:5px;
 }
 .cart-btn{
     box-sizing: border-box;
@@ -36,5 +36,6 @@
 }
 
 .cart-btn:hover {
-    background-color: rgb(207, 141, 60);
+    background-color: rgb(214, 124, 14);
+    transition: 1s;
   }

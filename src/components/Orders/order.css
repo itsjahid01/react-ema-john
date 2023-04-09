@@ -1,0 +1,18 @@
+.order-container{
+    width: 900px;
+    margin: 40px auto;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+}
+.product-container{
+    width: 585px;
+}
+.cart-summary{
+    position: sticky;
+    top: 110px;
+    width: 350px;
+    height: 300px;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 8px;
+}

@@ -11,8 +11,8 @@
 
 .order-summary{
     background-color: rgba(255, 153, 0, 0.3);
-    height: 100vh;
+    height:450px;
     position: sticky;
-    top: 0;
+    top: 60px;
 }
 
