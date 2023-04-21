@@ -10,9 +10,21 @@
 }
 
 .order-summary{
+    padding: 10px;
     background-color: rgba(255, 153, 0, 0.3);
-    height:450px;
+    height:400px;
     position: sticky;
     top: 60px;
 }
 
+.review-btn{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+}

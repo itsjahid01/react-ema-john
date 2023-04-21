@@ -4,3 +4,14 @@
 .cart p,h3{
     margin-left: 16px;
 }
+.clear-cart-btn{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #FF3030;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+}

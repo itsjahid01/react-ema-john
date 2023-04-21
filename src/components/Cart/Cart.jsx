@@ -5,7 +5,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const Cart = (props) => {
   // console.log(props.cart)
-  const { cart } = props;
+  const { cart, handleClearCart, children } = props;
 
   let totalPrice = 0;
   let shipping = 0;
@@ -32,9 +32,10 @@ const Cart = (props) => {
       <p>Total Shipping Charge: ${shipping}</p>
       <p>Tax: ${tax.toFixed(2)}</p>
       <h3>Grand Total: ${grandTotal.toFixed(2)}</h3>
-      <button>
+      <button onClick={handleClearCart} className="clear-cart-btn">
         Clear Cart <FontAwesomeIcon icon={faTrash} />
       </button>
+      {children}
     </div>
   );
 };

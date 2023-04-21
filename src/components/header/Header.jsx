@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import logo from "../../images/Logo.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,10 +10,10 @@ const Header = () => {
         <img src={logo} alt="" />
       </Link>
       <nav>
-        <Link to="/">Shop</Link>
-        <Link to="/orders">Order</Link>
-        <Link to="/inventory">Inventory</Link>
-        <Link to="/login">Login</Link>
+        <NavLink to="/">Shop</NavLink>
+        <NavLink to="/orders">Order</NavLink>
+        <NavLink to="/inventory">Inventory</NavLink>
+        <NavLink to="/login">Login</NavLink>
       </nav>
     </header>
   );
